@@ -1,3 +1,3 @@
-# cuny-fundamentals-of-data
+# CUNY, Fall 2015: Fundamentals of Interactive and Data Journalism
 
-Course materials for *Fundamentals of Interactive and Data Journalism, Fall 2015*
+For more information visit TK link
