@@ -45,6 +45,7 @@ h2{
 	font-family: 'Oswald', sans-serif;
 	font-size:18px;
 	font-weight:500;
+	text-transform: uppercase;
 }
 .details{
 	padding: 25px 40px;
@@ -53,6 +54,11 @@ h2{
 }
 .section{
 	color: #767676;
+	border-top: 2px solid #ccc;
+}
+.details,
+.about {
+	border-top:0;
 }
 .deet{
 	margin-right: 25px;	
@@ -75,11 +81,20 @@ h2{
 	font-size: 24px;
 	font-weight:700;
 	color:  #ff5b3a; 
-	border-top: 1px #767676 dotted;
+	border-top: 1px #ccc dotted;
 
 	padding: 15px 25px 0;
 	margin: 15px 0 0;
 }
+.overview{
+	border-top: 0;
+}
 .readings{
 	font-weight: 700;
+}
+table {
+    width: 50%;
+}
+b {
+    font-size: 15px;
 }
