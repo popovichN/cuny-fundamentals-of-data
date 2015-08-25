@@ -65,6 +65,7 @@ h2{
 
 	font-size: 16px;
     font-weight:500;
+    line-height: 24px;
    	color: #ff5b3a;
 
    	display:inline-block;
@@ -97,4 +98,39 @@ table {
 }
 b {
     font-size: 15px;
+}
+.percent{
+	text-align: right;
+}
+@media screen and (max-width: 400px){
+	p, ul{
+		line-height:24px;
+	}
+	ul{
+		padding-left: 20px;
+	}
+	h1 {
+	    font-size: 36px;
+	    padding: 10px 0;
+	}
+	.header {
+    	padding: 10px 25px; 
+    }
+	.details {
+    	padding: 25px 0;
+    	margin: 0 15px;
+	}
+	.section{
+		margin: 0 15px 15px;
+	}
+	.section-header{
+		font-size: 22px;
+		padding: 15px 0 0;
+	}
+	.content{
+		padding: 10px 0;
+	}
+	table {
+   		width: 95%;
+	}
 }
