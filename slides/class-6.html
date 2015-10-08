@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://localhost:8000/?print-pdf/#/exercises -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+
+		<title>reveal.js - The HTML Presentation Framework</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="./class-6_files/reveal.css">
+		<link rel="stylesheet" href="./class-6_files/simple.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="./class-6_files/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script><link rel="stylesheet" type="text/css" href="./class-6_files/pdf.css">
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	<style type="text/css">@page{size:1056px 770px; margin: 0;}</style><style type="text/css">.reveal section>img, .reveal section>video, .reveal section>iframe{max-width: 960px; max-height:700px}</style></head>
+
+	<body style="transition: -webkit-transform 0.8s ease; width: 1056px; height: 770px;" class="print-pdf" data-pinterest-extension-installed="cr1.39.1">
+
+		<div class="reveal slide center" role="application" data-transition-speed="default" data-background-transition="fade">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section id="welcome" hidden="" aria-hidden="true" class="present" style="display: block; left: 48px; top: 339.5px; width: 960px;">
+					<h2>Week 6 | HTML and CSS 2</h2>
+				<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -339.5px; left: -48px;"></div></section>
+
+				<section id="review" hidden="" aria-hidden="true" class="present" style="display: block; left: 48px; top: 351.5px; width: 960px;">
+					<h3>Review from last week...</h3>				
+				<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -351.5px; left: -48px;"></div></section>
+
+				<!-- <section id='html'>
+					<p>How should I set up a HTML page?</p>
+				</section>
+
+				<section id='header-tags-1'>
+					<p>What do opening and closing tags look like?</p>
+					<p class='fragment'>What kind of tag is doesn't need to be closed?</p>
+				</section>
+		
+				<section id='html-text-formatting'>
+					<p>How do I... </p>
+					<p class='fragment'>Make text bold?</p>
+					<p class='fragment'>Italic?</p>
+					<p class='fragment'>Add links?</p>
+					<p class='fragment'>BONUS: Add links that open in a new tab?</p>
+				</section>
+			
+				<section id='lists'>
+					<p>How do I structure a list?</p>
+					<p class='fragment'>(Unordered v ordered)</p>
+
+				</section>
+					
+				<section id='css-start'>
+					<p>What styles selectors would I use for… </p>
+					<p class='fragment'>All the paragraph tags?</p>
+					<p class='fragment'>An tag with the id "cuny"?</p>
+					<p class='fragment'>An tag with the class "cuny"?</p>
+				</section>
+
+				<section id='new-stuff'>
+					<h3>Some more review …</h3>
+				</section> -->
+
+				<section hidden="" aria-hidden="true" class="stack present" style="display: block;">
+					<section id="element" class="present" style="display: block; left: 48px; top: 251.5px; width: 960px;">
+						<h3>Element</h3>
+						<img width="100%" style="margin-left:220px" height="auto" alt="HTML element" src="./class-6_files/element.png">
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -251.5px; left: -48px;"></div></section>
+					<section id="tag" class="present" aria-hidden="true" hidden="" style="display: block; left: 48px; top: 242.5px; width: 960px;">
+						<h3>Tag</h3>
+						<img width="100%" style="margin-left:220px" height="auto" alt="HTML tag" src="./class-6_files/tag.png">
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -242.5px; left: -48px;"></div></section>
+					<section id="attribute" class="present" aria-hidden="true" hidden="" style="display: block; left: 48px; top: 249px; width: 960px;">
+						<h3>Attribute</h3>
+						<img width="100%" style="margin-left:220px" height="auto" alt="HTML attribute" src="./class-6_files/attribute.png">
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -249px; left: -48px;"></div></section>
+				<div class="slide-background stack"></div></section>
+
+				<section hidden="" aria-hidden="true" class="stack present" style="display: block;">
+					<section id="nesting-1" hidden="" aria-hidden="true" class="present" style="display: block; left: 48px; top: 180px; width: 960px;">
+						<p>Elements nest inside one another in HTML</p>
+						<img width="500px" height="auto " alt="Nesting dolls" src="./class-6_files/nesting.jpg">
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -180px; left: -48px;"></div></section>
+					<section id="nesting-2" class="present" aria-hidden="true" hidden="" style="display: block; left: 48px; top: 294px; width: 960px;">
+						<img width="100%" height="auto " alt="Nesting dolls" src="./class-6_files/nesting2.png">
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -294px; left: -48px;"></div></section>
+					<section id="nesting-3" class="present" aria-hidden="true" hidden="" style="display: block; left: 48px; top: 183px; width: 960px;">
+						<img width="100%" height="auto " alt="Nesting dolls" src="./class-6_files/lyrics.png">
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -183px; left: -48px;"></div></section>
+				<div class="slide-background stack"></div></section>
+
+				<section hidden="" aria-hidden="true" class="stack present" style="display: block;">
+					<section id="add-images" hidden="" aria-hidden="true" class="present" style="display: block; left: 48px; top: 295.5px; width: 960px;">
+						<h3>Adding images</h3>
+						<img width="100%" style="margin-left:125px" height="auto" alt="Image example code" src="./class-6_files/code.png">
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -295.5px; left: -48px;"></div></section>
+					<section id="show-images" class="present" aria-hidden="true" hidden="" style="display: block; left: 48px; top: 224.5px; width: 960px;">
+						<img width="500px" height="auto" alt="A computer!" src="./class-6_files/giphy.gif">
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -224.5px; left: -48px;"></div></section>
+				<div class="slide-background stack"></div></section>
+				
+				<section id="new" hidden="" aria-hidden="true" class="present" style="display: block; left: 48px; top: 351.5px; width: 960px;">
+					<h3>A few new things for this week …</h3>
+				<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -351.5px; left: -48px;"></div></section>
+					
+				<section hidden="" aria-hidden="true" class="stack present" style="display: block;">
+					<section id="tables-1" hidden="" aria-hidden="true" class="present" style="display: block; left: 48px; top: 6px; width: 960px;">
+						<h3>Let's make some tables</h3>
+						<img width="500px" height="auto" alt="A table" src="./class-6_files/table.png">
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -6px; left: -48px;"></div></section>
+
+					<section id="tables-2" class="present" aria-hidden="true" hidden="" style="display: block; left: 48px; top: 294px; width: 960px;">
+						<table>
+							<tbody><tr> 
+						    	<th>Head 1</th>
+						    	<th>Head 2</th>
+						  	</tr>
+						  	<tr> 
+							    <td>Data 1</td>
+							    <td>Data 2</td>
+							</tr>
+							<tr> 
+							    <td>Data 3</td>
+							    <td>Data 4</td>
+							</tr>
+						</tbody></table>
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -294px; left: -48px;"></div></section>
+				<div class="slide-background stack"></div></section>
+
+				<section hidden="" aria-hidden="true" class="stack present" style="display: block;">
+					<section id="inline" hidden="" aria-hidden="true" class="present" style="display: block; left: 48px; top: 251.5px; width: 960px;">
+						<h3>Good:</h3>
+						<h3>Inline styles</h3>
+						<img width="100%" style="margin-left:75px" height="auto" alt="Red text example" src="./class-6_files/red-text.png">
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -251.5px; left: -48px;"></div></section>
+					
+					<section id="internal" class="present" aria-hidden="true" hidden="" style="display: block; left: 48px; top: 171.5px; width: 960px;">
+						<h3>Better:</h3>
+						<h3>Style tags in the header / Internal stylesheet<p></p>
+						<img width="100%" style="margin-left:325px" height="auto" alt="Header CSS" src="./class-6_files/internal-css.png">
+					</h3><div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -171.5px; left: -48px;"></div></section>
+					
+					<section id="external" class="present" aria-hidden="true" hidden="" style="display: block; left: 48px; top: 266.5px; width: 960px;">
+						<h3>Best: </h3>
+						<h3>External stylesheet</h3>
+						<img width="550px" height="auto" alt="Red text example" src="./class-6_files/external.png">
+					<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -266.5px; left: -48px;"></div></section>
+
+				<div class="slide-background stack"></div></section>
+
+				<section id="break-2" hidden="" aria-hidden="true" class="present" style="display: block; left: 48px; top: 362px; width: 960px;">
+					<p>BREAK!</p>
+				<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -362px; left: -48px;"></div></section>
+
+				<section id="exercises" class="present" style="display: block; left: 48px; top: 318.5px; width: 960px;">
+					<h3>In-class exercises</h3>
+					<p><a href="http://bit.ly/html-ex-2" target="_blank">http://bit.ly/html-ex-2</a></p>
+				<div class="slide-background " data-loaded="true" style="display: block; width: 1056px; height: 770px; top: -318.5px; left: -48px;"></div></section>
+			</div>
+		<div class="backgrounds"></div><div class="progress" style="display: block;"><span style="width: 0px;"></span></div><aside class="controls" style="display: block;"><div class="navigate-left enabled"></div><div class="navigate-right"></div><div class="navigate-up"></div><div class="navigate-down enabled"></div></aside><div class="slide-number"></div><div class="pause-overlay"></div><div id="aria-status-div" aria-live="polite" aria-atomic="true" style="position: absolute; height: 1px; width: 1px; overflow: hidden; clip: rect(1px 1px 1px 1px);">
+					In-class exercises
+					http://bit.ly/html-ex-2
+				</div></div>
+
+		<script src="./class-6_files/head.min.js"></script>
+		<script src="./class-6_files/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script><script type="text/javascript" src="./class-6_files/zoom.js"></script><script type="text/javascript" src="./class-6_files/notes.js"></script>
+
+	
+
+<span style="height: 20px; width: 40px; position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: none; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAoCAYAAABpYH0BAAAHjElEQVR4Ae1bBXAbvRLO0GNmpv+VmflnZmZmZi4zMzMzM4Y58ZwTz4SZnZzpjLWzBa38Zs8aO332pdy7ma9JPmml1XfSaqXacfgYjRIcPrwP9u7dqSMKHDq0D5hmiLi4vDwJEH6/H86dOxcFdAQCfq5ZQUEexOHM8/l8cPbsWR0xADVD7eJwSuqCaANqpwt4MQTU9uiPLuDFErC1tVUDdFw0AV0l5VA1dS4Y7n4SUv7VD+J/0QHif3YT/1168Dmonb8MfBbr9StgIBDQBE9DE+Q//zYX69QP/3NBJP6pO1TPXgwBvx9trwu0S0BblgFSOwwigRJ+1xnyn3wVqqfNh6aVG6Fu7mIofudzSL1poCCk6aX3wO/1XV8C4ikkFjgKSiD5b71IlIIX3oHTbDayR5ji/GEdVU+dK8zS0m8mYDvXPLQJyDLw7CH3khjlTAx8LmSDYtbOXEg28b/sAPb8Qir3ebxg3ncY5MTUiz5Ir80BTTv2UX+R4KyownraBcRjSbRo3LaHhDDc8Ri0BgKcd5lboOTL0ZDPZqOclBpmh/XSuwwj2+IPv+a81+2B3DsfI75+/VbkLwpczTKkdx+B7fKNzSblCeVl42dA8j/78PLaZWtjbl+TgManXqPBWk4mBXmvF7KH3U98CnOKCRNmW/zul1QnvdfNnDMfPkEcomzklIsmYOWMBULbTdv3Ik8+J/+9N5UpRSXaBfR6vVEj5d99sUMeA/3/4xp3H0ROgFJbF2ZbMW66uun8thPnbAaJ4mMKG5CztAL5i4LGDduov6w+t4FPUahMzjJQWep/B6EgMbdPAno8nqhx6sfBTrMH3k1c6feTwlIW1kGYbdk3E9U4+PMOyPF69uQMqF+8Gk43y2R3MYBxSt5zCJpWb4ZWl1AmzM6CF9/V0r42AZP/3CP4RgfcRVzozEIYH3kxom3Bqx+qb/3f/ThXtXAlSI+9xPAytJxIpLp2FtilJ14F6dGXoPCT78AqmcDI4mtqx8Ec+S+/D0pdwwV9Lfl6QrDtJ14BW1Ep5/JZGpVz+6NsJfUnX9I6D+WcxMKTJgHdbnfUyBn+QHAJ/rojOOobOGfef0QQsHbBioi2Wf3vFDYgxqHzxDEBqW7l3MWq2DcNYEu+c1iYMDz0XJt+Kk1mnOU0251sk7MyEck+AnKDPkULbQJWz1LTEdNbn3FOzsolDpe4s7I6zM5aXAanfqrmgpVs1lpNheqy/2M38DjV+sYnXxUHd/ODUP7VeBbLbicOd9a2/KzbskuwRc7O/Cr7gmUKT71OZXjcLPt8JIclMUWbgE6nM2p4HQ4ekPlO2n045yoox2Nct+HYeJid6d0vQuLff3nuVTl/GXHSwy+o9RVFSNSL3vqMck1bcoa6Ef2+c5t+Fryj9lf+7STOoV/YRtWUuVRW+PrHyCFwWcakBQmoKEpM8LHlYHrmDXSM/y09qaY2mBo4mmWhfgNb4vE/+68QtNEBSZ1lbGYvovpNKapIyX/thUkuldWG7KzZg+9p08eMPreGhgahzHDvU2reuW4LcpqgWUAcfCCYQOPfbBn0FWMTu4FpZstaLiyCEpasJvymkxrP/jOAX0IoDgfmi8RbDRK1XzZ5NvGm594W+i54T51ZpZ+PiuifpbwCQwmd0d0O9QU4rFZI/EMXCjeYbrVbQIfDoRnNBkm4UMD8LkKApnzLXVwanGWpmULizV4KtRk6Q+qWrRX6ywiGDw7zgWMRfapavl59mXc/IZQ1HDlJZRhP0RetY78oAlYuWK7GMTZw64nE0CMbxaoSFgNPt8gkVPm0+VRufPwVag9nT8KvO1CZrbhMLauqoY0Iz9NOiyWiT/mvfED2FSOnCGWYCtFxkvmEXLsFtNvtmmF87i11Z500BwXCKxlQciSQ9x0BR1oWtHr4sQ47JTvp6deF2xniX3qPePYiBJvaXQeoLKPXzW36lNlX3anrWMwkexaLQzOBavbyeRl7EebMnJjHTgJarVbNSOs0hBySU7OQQ1CsxJ+R7LIG3k12Eku8G1nMzHv9I+IQhW98LNhUhOSGiSyhrz8eDzVMVF6uAlMiqpfDLipq2Xm7YulqtBETfnYZ3HAqCQwsiY9ns95skGIae7sFtDQ20hvFkwVuDNHaSvc/g3YC8EysxlC+Qwo2dZt2Ih+G8oUrhXrGR1+KWA83Ddq4RODlL852bQJaLBZNMEt56i0KW4ax2MrH4zE2CsvVcugEJP6e75Bs5+4ItqoawUaxWjEpFs7TRW9+CoosC/W8DCUffsN2224hu39/MG/cCbb4FDyrE48XGHhXiSEm1vG3W8Bmo4kuD5Sa2phscWkHZAvfdFySCeMmcvgf1vj5E/yJbznMLoCpU7YB7EyIQIscceBoh5cSGHudBiO4C0rwZpxCSiuDkmXAfpHHBBvttAsoy7I2VFUHA/WC5dhgrPZoQ5tEDHZYH+3+b59YjnVR0Eg89asR2gVUHaFTBfHXPy6egAhcQtrtdQERuoAtLS06NEAX8GIJaDabdWgAFxA/ptrQUBejsQ7UDLXjHzLPzExjREOUxjpQK9SsoMAIcewf/jWHQ4e0fM1B/5rDebD10oZZukwlAAAAAElFTkSuQmCC); background-color: transparent; background-size: 40px 20px;"></span></body></html>
